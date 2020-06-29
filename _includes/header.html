@@ -61,9 +61,11 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a>
         <ul>
-           <li><a class="waves-effect" href="{{site.baseurl}}/categories">자바스크립트</a>
-           <li><a class="waves-effect" href="{{site.baseurl}}/categories">자바</a>
-           <li><a class="waves-effect" href="{{site.baseurl}}/categories">SQL과 Mybatis</a>
+           {% for cat in site.categories %}
+            {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
+            {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
+            <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{cat[0]}}</div></a>
+            {% endfor %}
         </ul>
         </li>
         <li><div class="divider"></div></li>
