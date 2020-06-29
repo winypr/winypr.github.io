@@ -59,14 +59,14 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
          <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
-        <li><a class="waves-effect dropdown-button" data-target='dropdown1' href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories
+        <li><a class="waves-effect dropdown-button" data-target='dropdown1' href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories  </a>
           
           <ul id='dropdown1' class='dropdown-content'>
            {% for cat in site.categories %}
            <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</div></a><li>
             {% endfor %}
         </ul>
-          </a>
+        
         </li>
       
         <li><div class="divider"></div></li>
