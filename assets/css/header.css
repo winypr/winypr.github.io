@@ -3,11 +3,11 @@ display : none;
 
 }
 
-.submenu:hover > ul {
+.submenu:active > ul {
 display : block;
  
 }
 
 .submenu li {
-  padding-left: 100px;
+  padding-left: 80px;
 }
