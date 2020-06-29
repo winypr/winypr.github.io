@@ -2,11 +2,12 @@
 layout: post
 title:  "This is Just Another Post"
 date:   2017-03-25 01:30:13 +0800
+
+---
 <!--
 categories: reference 
 -->
 
----
 I have some text.
 
 I want some _italics_.
