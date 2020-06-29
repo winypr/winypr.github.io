@@ -2,9 +2,12 @@
 layout: post
 title:  "Syntax Highlighting Test"
 date:   2017-03-24 01:30:13 +0800
-categories: reference
 
 ---
+<!--
+categories: reference 
+-->
+
 Jekyll uses Rouge by default for syntax highlighting, here are some tests.
 
 Ruby:
