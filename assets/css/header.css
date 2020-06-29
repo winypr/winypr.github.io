@@ -8,6 +8,11 @@ display : block;
  
 }
 
+.submenu:visited > ul {
+display : block;
+ 
+}
+
 .submenu li {
   padding-left: 80px;
 }
