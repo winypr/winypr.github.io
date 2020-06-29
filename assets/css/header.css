@@ -3,7 +3,7 @@ display : none;
 
 }
 
-.submenu:active > ul {
+.submenu:visited > ul {
 display : block;
  
 }
