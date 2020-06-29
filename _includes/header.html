@@ -63,7 +63,7 @@
           
           <ul>
            {% for cat in site.categories %}
-           <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{cat[0]}}</div></a><li>
+           <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</div></a><li>
             {% endfor %}
         </ul>
         </li>
