@@ -1,13 +1,11 @@
 .submenu > ul{
-opacity : 0;
-visibility : hidden;
-  
+display : none;
+
 }
 
-.submenu:hover {
-opacity : 1;
-visibility : visible;
-  
+.submenu:hover > ul {
+display : block;
+ 
 }
 
 .submenu li {
