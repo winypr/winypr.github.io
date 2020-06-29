@@ -64,8 +64,10 @@
           <details>
           <ul>
            {% for cat in site.categories %}
-            {{cat[0] | slice: 0}}
-            {{cat[0] | slice: 0 | upcase}}
+            <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a>
+            {{cat[0]}}
+            {{cat[0] | upcase}}
+              
             <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{cat[0]}}</div></a>
             {% endfor %}
         </ul>
