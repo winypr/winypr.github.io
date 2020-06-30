@@ -162,3 +162,8 @@
   color: #a8e1fe;
   font-weight: bold;
 }
+
+
+.dropdown-content > li {
+  padding-left: 80px;
+}
