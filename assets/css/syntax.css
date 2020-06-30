@@ -163,6 +163,9 @@
   font-weight: bold;
 }
 
+.dropdown-content {
+  top:0px; !important
+}
 
 .dropdown-content > li {
   padding-left: 80px;
