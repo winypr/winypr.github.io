@@ -164,7 +164,9 @@
 }
 
 .dropdown-content {
-  top:380px !important;
+  position:static !important;
+  box-shadow:none !important;
+  
 }
 
 .dropdown-content > li {
