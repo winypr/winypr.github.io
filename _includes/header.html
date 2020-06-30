@@ -62,7 +62,7 @@
         <li>
            <a class="waves-effect dropdown-button" data-activates="dropdown1" href="{{site.baseurl}}/categories"><i class="material-icons">sort
            </i>Categories<i class="material-icons right" >arrow_drop_down</i></a>
-          <ul id="dropdown1" class="dropdown-content">
+          <ul class="dropdown-content">
            {% for cat in site.categories %}
             {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
              {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
