@@ -1,13 +1,3 @@
-.submenu > ul{
-display : none;
-
-}
-
-.submenu:hover > ul {
-display : block;
- 
-}
-
-.submenu li {
+.dropdown-content > li {
   padding-left: 80px;
 }
