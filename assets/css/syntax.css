@@ -166,7 +166,7 @@
 .dropdown-content {
   position:static !important;
   box-shadow:none !important;
-  
+  display : none !important;  
 }
 
 .dropdown-content > li {
