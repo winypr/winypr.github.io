@@ -65,7 +65,6 @@
           <ul id="dropdown1" class="dropdown-content">
            {% for cat in site.categories %}
            <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</div></a><li>
-           <li class="divider"></li>
             {% endfor %}
           </ul>
         </li>
