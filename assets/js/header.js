@@ -1,6 +1,1 @@
-
-(function($){
-  $(function(){
-   $(".dropdown-button").dropdown();
-  });
-})(jQuery);
+$(".dropdown-button").dropdown();
