@@ -166,11 +166,11 @@
 .submenu-content {
   position:static !important;
   box-shadow:none !important;
-  display : block !important;  
+  display : none !important;  
 }
 
 .submenu-content .active{
-  display : none !important;  
+  display : block !important;  
 }
 
 .submenu-content > li {
