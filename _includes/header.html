@@ -60,7 +60,7 @@
          <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
         <li>
-            <a class="waves-effect  dropdown-button" href="{{site.baseurl}}/categories" data-activates="dropdown1"><i class="material-icons">sort</i>Categories<i class="material-icons right">arrow_drop_down</i></a>
+            <a class="waves-effect  dropdown-btn" href="{{site.baseurl}}/categories" data-activates="dropdown1"><i class="material-icons">sort</i>Categories<i class="material-icons right">arrow_drop_down</i></a>
           <ul id="dropdown1" class="dropdown-content">
            {% for cat in site.categories %}
             {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
