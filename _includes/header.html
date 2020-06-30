@@ -60,8 +60,8 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
          <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
-        <li class="submenu">
-            <a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a>
+        <li>
+            <a class="waves-effect" href="{{site.baseurl}}/categories" data-activates="dropdown1"><i class="material-icons">sort</i>Categories<i class="material-icons right"></i></a>
           <ul>
            {% for cat in site.categories %}
            <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</div></a><li>
