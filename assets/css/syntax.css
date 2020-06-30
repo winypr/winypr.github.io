@@ -163,12 +163,16 @@
   font-weight: bold;
 }
 
-.dropdown-content {
+.submenu-content {
   position:static !important;
   box-shadow:none !important;
+  display : block !important;  
+}
+
+.submenu-content .active{
   display : none !important;  
 }
 
-.dropdown-content > li {
+.submenu-content > li {
   padding-left: 80px;
 }
