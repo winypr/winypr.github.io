@@ -164,7 +164,7 @@
 }
 
 .dropdown-content {
-  box-shadow:none !important;
+  top : 380px !important;
 }
 
 .dropdown-content > li {
