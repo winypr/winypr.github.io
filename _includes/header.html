@@ -66,7 +66,7 @@
            {% for cat in site.categories %}
             {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
              {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
-            <li><a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</a></li>
+            <li><a class="cat-chip" href="{{site.baseurl}}/categories#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</a></li>
             {% endfor %}
           </ul>
         </li>
