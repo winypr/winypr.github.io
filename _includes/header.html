@@ -64,7 +64,7 @@
             <a class="waves-effect dropdown-button" href="{{site.baseurl}}/categories" data-activates="dropdown1"><i class="material-icons">sort</i>Categories<i class="material-icons right">arrow_drop_down</i></a>
           <ul id="dropdown1" class="dropdown-content">
            {% for cat in site.categories %}
-           <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</div></a><li>
+           <li> <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{cat[0]}}</a><li>
             {% endfor %}
           </ul>
         </li>
