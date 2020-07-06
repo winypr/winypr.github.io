@@ -25,7 +25,7 @@ tags: web html
  - 관리를 위해 주소에 디렉토리가 포함되는 데 CSS, js의 경로에도 문제가 생길수 있다. 
  이 때 CSS, js의 경로를 동적으로 설정하면 해결된다.
  
- 방법1) CSS의 경로에 ${pageContext.request.contextPath} - 웹애플리케이션의 상대적 경로 (프로젝틈명일수도) 추가 하기
+ 방법1) CSS의 경로에 ${pageContext.request.contextPath} - 웹애플리케이션의 상대적 경로 (프로젝트 명일수도) 추가 하기
  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap-chart.css">   
 
  방법2) CSS 경로에 수정해야 할 값이 많을 경우 base 태그 활용
