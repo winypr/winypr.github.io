@@ -3,7 +3,7 @@ layout: post
 title:  "[웹개발] 상대경로와 절대경로."
 date:   2020-07-06 20:00:00 +0800
 categories: web
-tags: web
+tags: web html
 ---
 
 ##### 상대경로와 절대경로
