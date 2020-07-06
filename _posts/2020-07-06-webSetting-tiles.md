@@ -18,7 +18,7 @@ tags: setting webSetting
 	<egovframework.rte.version>3.7.0</egovframework.rte.version>
 	<!-- 요게 추가한 부분 -->
 	<org.apache.tiles-version>2.2.2</org.apache.tiles-version>  
-	</properties>
+</properties>
 {% endhighlight %}
 
 2) 추가 : 타일즈 dependency 
