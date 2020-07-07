@@ -11,7 +11,8 @@ tags: framework mybatis
 ###### 1. pom.xml에 Mybatis 세팅을 위한 값을 추가
 
 1) 수정 : 주석처리 된 dependency 주석 해제  
-  {% highlight language %} <dependency>
+  {% highlight language %}  
+  <dependency>
       <groupId>com.googlecode.log4jdbc</groupId>
       <artifactId>log4jdbc</artifactId>
       <version>1.2</version>
