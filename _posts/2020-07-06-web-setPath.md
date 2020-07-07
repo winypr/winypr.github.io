@@ -17,19 +17,19 @@ tags: web html
 
 ###### 상대경로 (중요)
 - 현재 위치를 기준으로 대상의 위치를 찾을 때 사용 
- '/'   : 가장 최상위 디렉토리 (웹 개발 때는 webapp)
- './'  : 현재 위치 (생략해도 됨)
- '../' : 현재 위치의 부모 디렉토리 (조부모 디렉토리 접근은 '../../')
+ '/'   : 가장 최상위 디렉토리 (웹 개발 때는 webapp)  
+ './'  : 현재 위치 (생략해도 됨)  
+ '../' : 현재 위치의 부모 디렉토리 (조부모 디렉토리 접근은 '../../')  
  
  ##### 동적경로
  - 관리를 위해 주소에 디렉토리가 포함되는 데 CSS, js의 경로에도 문제가 생길수 있다. 
  이 때 CSS, js의 경로를 동적으로 설정하면 해결된다.
  
  방법1) CSS의 경로에 ${pageContext.request.contextPath} - 웹애플리케이션의 상대적 경로 (프로젝트 명일수도) 추가 하기
- <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap-chart.css">   
+  {% highlight language %} <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap-chart.css">   {% endhighlight %} 
 
  방법2) CSS 경로에 수정해야 할 값이 많을 경우 base 태그 활용
- <base href="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/" />
+ {% highlight language %} <base href="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/" /> {% endhighlight %} 
  -> aws에 올릴 때 괜찮을까? 직접 해봐야 알 수 있을 듯
 
 
